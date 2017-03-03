@@ -1,0 +1,13 @@
+Package: PhyloScan
+Title: Phylogenetic Scan Test for Microbiome Data
+Version: 1.0
+Authors@R: person("Yunfan", "Tang", email = "yunfantang@uchicago.edu",
+  role = c("aut", "cre"))
+Description: Cross-group hypothesis testing of microbiome compositions using triplet scan statistics.
+Depends: R (>= 3.3.2)
+Imports: HMP, doParallel, R2Cuba, hashmap, foreach, parallel
+Suggests: ape
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
